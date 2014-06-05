@@ -1,0 +1,220 @@
+/* {
+  border: 1px solid black;
+}*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #15274A;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+header {
+  background-color: #15274A;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 60px;
+}
+
+.head {
+  color: white;
+  list-style-type: none;
+  font-size: 2em;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 auto;
+}
+
+.topnav {
+  display: inline-block;
+  padding: 0 2em;
+}
+
+#nav1 {
+  padding-left: 0;
+}
+
+#nav2 {
+  background-color: white;
+  color: #15274A;
+}
+
+header A:link {
+  color: white;
+}
+
+header A:hover {
+  font-style: italic;
+}
+ 
+header A:visited {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #15274A;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot {
+  color: white;
+  list-style-type: none;
+  font-size: 1em;
+  text-align: center;
+}
+
+.footnav {
+  display: inline-block;
+  padding: 0 2em;
+}
+
+footer A:link {
+  color: white;
+}
+
+footer A:hover {
+  font-style: italic;
+}
+
+footer A:visited {
+  text-decoration: none;
+}
+
+#bodycontainer {
+  top: 5em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  z-index: 0;
+  background-color: white;
+}
+
+#bodyhead {
+  margin-top: 70px;
+  float: left;
+  width: 100%;
+  background: white;
+}
+
+#welcome {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px dashed blue;
+  border-bottom: 1px dashed blue;
+  margin-top: 250px;
+}
+
+#welhead {
+  float: left;
+  width: 60%;
+}
+
+.property {
+  float: left;
+  width: 70%;
+  height: auto;
+}
+
+.propertyside1 {
+  float: right;
+  width: 30%;
+  height: auto;
+  margin-top: 10%;
+}
+
+.propertyside {
+  float: right;
+  width: 30%;
+  height: auto;
+  margin-top: 2%;
+}
+
+#property1 {
+  margin-top: 8%;
+}
+
+.mansion {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.price {
+  color: orange;
+  font-size: 200%;
+  padding-left: 5%;
+  float: left;
+  width: 20%;
+  padding-top: 10%
+}
+
+.address {
+  color: darkgrey;
+  font-size: 250%;
+  width: 70%;
+  float: right;
+  text-align: center;
+  margin-right: 5%;
+}
+
+.description {
+  font-size: 115%;
+  text-align: justify;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 25%;
+  padding-right: 5%;
+}
+
+#piclink {
+  color: orange;
+}
+
+#property4 {
+  margin-bottom: 8%;
+}
+
+table {
+  font-size: 120%;
+  border: 1px solid orange;
+  border-spacing: .25em;
+}
+
+#emaillink {
+  color: orange;
+}
+
+#emaillink:hover {
+  font-style: italic;
+}
+
+.infobutton {
+  background-color: orange;
+  text-decoration:none;
+  padding: 15px;
+  border-radius: 25px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+
+
+
+
+
